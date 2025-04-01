@@ -43,7 +43,7 @@ Unlike Bitcoin's UTXO model, Solana uses an account-based model similar to Ether
 
 ### SPL Token Operations:
 - Uses associated token accounts (ATAs).
-- Requires SOL for rent exemption.
+- Requires SOL for rent exemption (since data storage is not free to maintain accounts on the blockchain, You need to deposit a certain amount of SOL as "rent" for ATAs, this amount is typically around 0.002 SOL)
 - Tokens have metadata like decimals and supply.
 
 ### Staking Process:
@@ -221,7 +221,7 @@ Diferente do modelo UTXO do Bitcoin, a Solana usa um modelo baseado em contas si
 
 ### Operações com Tokens SPL
 - Usa contas de token associadas (ATAs)
-- Requer SOL para isenção de aluguel
+- Requer SOL para isenção de aluguel (como o armazenamento de dados não é gratuito para manter contas na blockchain, você precisa depositar uma certa quantia de SOL como "aluguel" para ATAs, esse valor normalmente fica em torno de 0,002 SOL)
 - Tokens têm metadados como decimais e oferta
 
 ### Processo de Staking
